@@ -1,5 +1,5 @@
 async function setup() {
-    const patchExportURL = "https://drive.google.com/uc?export=download&id=14VHv84gfNro8v4GhVq5WmmGhPJTD1iuC";
+    const patchExportURL = "https://raw.githubusercontent.com/cameronjohnstonmusic/RNBO-Testing-Update/main/export/patch.export.json";
     // Create AudioContext
     const WAContext = window.AudioContext || window.webkitAudioContext;
     const context = new WAContext();
